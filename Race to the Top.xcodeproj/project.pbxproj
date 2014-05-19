@@ -23,6 +23,9 @@
 		F874D703192A07BA00FFD558 /* Race_to_the_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F874D702192A07BA00FFD558 /* Race_to_the_TopTests.m */; };
 		F874D70E192A092300FFD558 /* STCSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F874D70D192A092300FFD558 /* STCSpaceShipView.m */; };
 		F874D754192A2B8C00FFD558 /* Main.iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F874D753192A2B8C00FFD558 /* Main.iPad.storyboard */; };
+		F874D756192A322100FFD558 /* mount-fuji-and-mount-hoei.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F874D755192A322100FFD558 /* mount-fuji-and-mount-hoei.jpg */; };
+		F874D759192A343E00FFD558 /* STCMountainPath.m in Sources */ = {isa = PBXBuildFile; fileRef = F874D758192A343E00FFD558 /* STCMountainPath.m */; };
+		F874D75C192A370000FFD558 /* STCPathView.m in Sources */ = {isa = PBXBuildFile; fileRef = F874D75B192A370000FFD558 /* STCPathView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +61,11 @@
 		F874D70C192A092300FFD558 /* STCSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCSpaceShipView.h; sourceTree = "<group>"; };
 		F874D70D192A092300FFD558 /* STCSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCSpaceShipView.m; sourceTree = "<group>"; };
 		F874D753192A2B8C00FFD558 /* Main.iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.iPad.storyboard; sourceTree = "<group>"; };
+		F874D755192A322100FFD558 /* mount-fuji-and-mount-hoei.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "mount-fuji-and-mount-hoei.jpg"; sourceTree = "<group>"; };
+		F874D757192A343E00FFD558 /* STCMountainPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCMountainPath.h; sourceTree = "<group>"; };
+		F874D758192A343E00FFD558 /* STCMountainPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCMountainPath.m; sourceTree = "<group>"; };
+		F874D75A192A370000FFD558 /* STCPathView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCPathView.h; sourceTree = "<group>"; };
+		F874D75B192A370000FFD558 /* STCPathView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCPathView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +129,10 @@
 				F874D6E7192A07BA00FFD558 /* STCAppDelegate.m */,
 				F874D6E9192A07BA00FFD558 /* Main.iPhone.storyboard */,
 				F874D753192A2B8C00FFD558 /* Main.iPad.storyboard */,
+				F874D75A192A370000FFD558 /* STCPathView.h */,
+				F874D75B192A370000FFD558 /* STCPathView.m */,
+				F874D757192A343E00FFD558 /* STCMountainPath.h */,
+				F874D758192A343E00FFD558 /* STCMountainPath.m */,
 				F874D70C192A092300FFD558 /* STCSpaceShipView.h */,
 				F874D70D192A092300FFD558 /* STCSpaceShipView.m */,
 				F874D6EC192A07BA00FFD558 /* STCViewController.h */,
@@ -134,6 +146,7 @@
 		F874D6DE192A07BA00FFD558 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				F874D755192A322100FFD558 /* mount-fuji-and-mount-hoei.jpg */,
 				F874D6DF192A07BA00FFD558 /* Race to the Top-Info.plist */,
 				F874D6E0192A07BA00FFD558 /* InfoPlist.strings */,
 				F874D6E3192A07BA00FFD558 /* main.m */,
@@ -237,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F874D756192A322100FFD558 /* mount-fuji-and-mount-hoei.jpg in Resources */,
 				F874D754192A2B8C00FFD558 /* Main.iPad.storyboard in Resources */,
 				F874D6F0192A07BA00FFD558 /* Images.xcassets in Resources */,
 				F874D6E2192A07BA00FFD558 /* InfoPlist.strings in Resources */,
@@ -259,10 +273,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F874D75C192A370000FFD558 /* STCPathView.m in Sources */,
 				F874D6E4192A07BA00FFD558 /* main.m in Sources */,
 				F874D6EE192A07BA00FFD558 /* STCViewController.m in Sources */,
 				F874D70E192A092300FFD558 /* STCSpaceShipView.m in Sources */,
 				F874D6E8192A07BA00FFD558 /* STCAppDelegate.m in Sources */,
+				F874D759192A343E00FFD558 /* STCMountainPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
