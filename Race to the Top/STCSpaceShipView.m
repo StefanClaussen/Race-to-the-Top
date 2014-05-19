@@ -32,6 +32,10 @@
     [bezierPath closePath];
     //Need to call the stroke method in order to see the line.
     [bezierPath stroke];
+    
+    UIBezierPath *cockPitWindowPath = [UIBezierPath bezierPathWithRect:CGRectMake(2/3.0 *self.bounds.size.width, 1/2.0 *self.bounds.size.height, 1/6.0 * self.bounds.size.width, 1/12.0 * self.bounds.size.height)];
+    [[UIColor blueColor] setFill];
+    [cockPitWindowPath fill];
 }
 
 
