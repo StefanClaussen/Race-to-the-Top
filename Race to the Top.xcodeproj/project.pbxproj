@@ -21,6 +21,7 @@
 		F874D6F9192A07BA00FFD558 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F874D6DB192A07BA00FFD558 /* UIKit.framework */; };
 		F874D701192A07BA00FFD558 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F874D6FF192A07BA00FFD558 /* InfoPlist.strings */; };
 		F874D703192A07BA00FFD558 /* Race_to_the_TopTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F874D702192A07BA00FFD558 /* Race_to_the_TopTests.m */; };
+		F874D70E192A092300FFD558 /* STCSpaceShipView.m in Sources */ = {isa = PBXBuildFile; fileRef = F874D70D192A092300FFD558 /* STCSpaceShipView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		F874D6FE192A07BA00FFD558 /* Race to the TopTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Race to the TopTests-Info.plist"; sourceTree = "<group>"; };
 		F874D700192A07BA00FFD558 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F874D702192A07BA00FFD558 /* Race_to_the_TopTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Race_to_the_TopTests.m; sourceTree = "<group>"; };
+		F874D70C192A092300FFD558 /* STCSpaceShipView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STCSpaceShipView.h; sourceTree = "<group>"; };
+		F874D70D192A092300FFD558 /* STCSpaceShipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STCSpaceShipView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				F874D6E6192A07BA00FFD558 /* STCAppDelegate.h */,
 				F874D6E7192A07BA00FFD558 /* STCAppDelegate.m */,
 				F874D6E9192A07BA00FFD558 /* Main.storyboard */,
+				F874D70C192A092300FFD558 /* STCSpaceShipView.h */,
+				F874D70D192A092300FFD558 /* STCSpaceShipView.m */,
 				F874D6EC192A07BA00FFD558 /* STCViewController.h */,
 				F874D6ED192A07BA00FFD558 /* STCViewController.m */,
 				F874D6EF192A07BA00FFD558 /* Images.xcassets */,
@@ -252,6 +257,7 @@
 			files = (
 				F874D6E4192A07BA00FFD558 /* main.m in Sources */,
 				F874D6EE192A07BA00FFD558 /* STCViewController.m in Sources */,
+				F874D70E192A092300FFD558 /* STCSpaceShipView.m in Sources */,
 				F874D6E8192A07BA00FFD558 /* STCAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
