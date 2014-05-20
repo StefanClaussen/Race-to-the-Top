@@ -4,6 +4,7 @@
 
 #import "STCViewController.h"
 #import "STCPathView.h"
+#import "STCMountainPath.h"
 
 @interface STCViewController ()
 @property (strong, nonatomic) IBOutlet STCPathView *pathView;
@@ -32,8 +33,17 @@
 
 - (void)panDetected:(UIPanGestureRecognizer *)panRecognizer
 {
+    // Using the method locationInView to determine where in the coordinate system the touch is occuring.
     CGPoint fingerLocation = [panRecognizer locationInView:self.pathView];
-    NSLog(@"I'm at (%f %f)", fingerLocation.x, fingerLocation.y);
+    
+    for (UIBezierPath *path in [STCMountainPath mountainPathsForRect:self.pathView.bounds])
+    {
+        UIBezierPath *tapTarget = [STCMountainPath tapTargetForPath:path];
+        
+        if ([tapTarget containsPoint:fingerLocation]){
+            NSLog(@"You hit the wall");
+        }
+    }
 }
 
 - (void)tapDetected:(UITapGestureRecognizer *)tapRecognizer
